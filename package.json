@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "hbs": "^4.2.0",
+    "nodemon": "^2.0.20",
     "postman-request": "^2.88.1-postman.31",
     "request": "^2.88.0"
   }
