@@ -6,6 +6,7 @@ import geocode from './geocode.mjs'
 import forecast from './forecast.mjs'
 
 const app=express()
+const port = process.env.PORT || 3000
 
 // //website_name.get() helps us to configure what the server should do when the server when user tries to get the resource at a specific url eg. website_name/about
 // //the get method takes 2 arguement=1. the rout(partial url ie. /about)    2. the 2nd will be a function where we will describe what response we should send back when so one visits that particular rout
@@ -110,8 +111,8 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(800, () => {
-    console.log('Server is up on port 800.')
+app.listen(port, () => {
+    console.log('Server is up on port.' + port)
 })
 
 
