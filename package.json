@@ -14,7 +14,10 @@
     "hbs": "^4.2.0",
     "nodemon": "^2.0.20",
     "postman-request": "^2.88.1-postman.31",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
   }
 }
