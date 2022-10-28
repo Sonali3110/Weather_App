@@ -1,7 +1,7 @@
 import request from 'request';
 
 const geocode = (address,callback) => {
-    const url = 'http://api.positionstack.com/v1/forward?access_key=c3932384094a53688e188cea8dfb1e66&query=1600%20' + encodeURIComponent(address) 
+    const url = 'http://api.positionstack.com/v1/forward?access_key=c3932384094a53688e188cea8dfb1e66&query=' + encodeURIComponent(address) 
     
 
 request({ url: url, json: true }, (error, response) => {
